@@ -44,3 +44,5 @@ Bjarki Fannar Snorrason
 
 Hvenær væri sniðugt að nota branches?
 	Þegar verið er að gera aðra útgáfu af sama verkefni (t.d. úr 1.0 yfir í 2.0)
+
+2809983979
