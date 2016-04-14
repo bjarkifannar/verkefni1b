@@ -41,3 +41,6 @@ Bjarki Fannar Snorrason
    		Working directory er mappa í tölvunni sem er verið að vinna í, staging area er
    		staður þar sem möppur og skrár eru tilbúnar að fara í repository og repository
    		er staðurinn sem allt er geymt.
+
+Hvenær væri sniðugt að nota branches?
+	Þegar verið er að gera aðra útgáfu af sama verkefni (t.d. úr 1.0 yfir í 2.0)
