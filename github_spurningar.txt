@@ -1,0 +1,6 @@
+1) Hvað gera eftirfarandi git skipanir:
+
+	git remote
+	git remote add param1 param3
+	git remote -v
+	git push param1 param2
