@@ -41,3 +41,5 @@ Bjarki Fannar Snorrason
    		Working directory er mappa í tölvunni sem er verið að vinna í, staging area er
    		staður þar sem möppur og skrár eru tilbúnar að fara í repository og repository
    		er staðurinn sem allt er geymt.
+
+2809983979
