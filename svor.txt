@@ -2,34 +2,42 @@ Bjarki Fannar Snorrason
 
 1. Hvað gera eftirfarandi Linux skipanir?
 	
-	cd
-	cd ~
-	ls
-	pwd
-	mkdir
+	cd		cd (change directory) skiptir um möppu (working directory)
+	cd ~	Fer í heimamöppu (home directory) þess notanda sem skrifar þessa skipun
+	ls		Sýnir skrár og möppur í möppunni sem skipunin er notuð í
+	pwd		Sýnir hvaða möppu maður er í frá rótinni (t.d. /usr/bin)
+	mkdir	Býr til möppu
 
 
 2. Hvað gera eftirfarandi git skipanir:
 
-	git clone
-	git log
-	git status
-	git diff
-	git checkout
+	git clone		Klónar git repository á tölvuna sem maður er í
+	git log			Sýnir sögu þess repository sem maður er í
+	git status		Sýnir stöðu skráa í því repository sem maður er í
+	git diff		Sýnir mun á tveimur commits
+	git checkout	Fer með mann á aðra útgáfu af repository
 
 
 3. Hver er munurinn á eftirfarandi git skipunum:
 	
-	a) git diff 
-	b) git diff --staged 
-	c) git diff commit1 commit2
+	a) git diff							Sýnir muninn á skrám í síðustu útgáfu og hvernig sú skrá er núna
+	b) git diff --staged				Sýnir muninn á skrám úr síðasta commit og hvernig sú skrá er núna
+	c) git diff commit1 commit2			Sýnir muninn á skrám úr tveimur mismunandi commits
 
 
 4. Hvað er version control, hverjir eru helstu kostir við að nota GIT?
-
+	Version control er tækni til að geyma mismunandi útgáfur af sömu skránni og geta
+	farið til baka án þess að gera backup sjálfur. Git einfaldar samvinnu og hjálpar
+	mörgum einstaklingum við að vinna í sömu skrám.
 
 5. Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+	Þegar það er búið að bæta einhverju við/laga eitthvað/taka eitthvað í burtu.
+	Ef það er gert í miðri viðbót/uppfærslu/eyðslu er ekki mikill tilgangur í því að
+	fara til baka á það commit.
 
 
 6. Hvernig eru Working directory, Staging area og Repository frábrugðin í GIT,
    til hvers eru þau?
+   		Working directory er mappa í tölvunni sem er verið að vinna í, staging area er
+   		staður þar sem möppur og skrár eru tilbúnar að fara í repository og repository
+   		er staðurinn sem allt er geymt.
